@@ -1,0 +1,35 @@
+.member {
+  padding: 10px;
+}
+
+.member__button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: black;
+}
+
+.member__button-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  max-height: 20px;
+}
+
+.member__icon {
+  width: 20px;
+}
+
+.member__directory-arrow {
+  transition-duration: 0.5s;
+  transform: rotate(90deg);
+}
+
+.member__directory-arrow-open {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition: all 0.5s linear;
+}
